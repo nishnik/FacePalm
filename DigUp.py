@@ -12,7 +12,7 @@ browser.fill('pass', user_pass)
 button = browser.find_by_id('loginbutton')
 button.click()
 
-# Paste the url you need to download from
+# Paste the url you need to download from. Note: It must be from mobile site
 browser.visit('https://m.facebook.com/photo.php?fbid=780845462017409&id=100002758879147&set=oa.876940942416747&relevant_count=1&source=48&refid=18&_ft_=qid.6274517251577062760%3Amf_story_key.876940939083414%3Atl_objid.876940939083414')
 # The number of consecutive pics you have to download
 NUM_PICS = 56
